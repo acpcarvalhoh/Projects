@@ -151,15 +151,7 @@ footer > p{
      transform: scale(1.2);
 }
 
-.roda{
-     text-decoration: none;
-     color: aliceblue;
-     font-weight: bolder;
-}
 
-.roda:hover{
-     text-decoration: underline;
-}
 
 aside >  ul{
      list-style-position: inside;
@@ -170,6 +162,12 @@ aside >  ul{
      aside >  ul{
           columns: 1;
      }
+
+     footer p{
+          font-size: 14px;
+     }
+
+
 }
 
 aside{
@@ -218,7 +216,23 @@ figcaption {
      left: 0;
      width: 100%;
      height: 100%;
-     }
+}
+
+footer p{
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: bolder;
+}
+
+.roda{
+     text-decoration: none;
+     color: aliceblue;
+     
+     
+}
+     
+.roda:hover{
+     text-decoration: underline;
+}
 
 strong{color: #159a4f;}
 
