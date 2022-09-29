@@ -166,6 +166,12 @@ aside >  ul{
      columns: 2;
 }
 
+@media  screen and (max-width: 400px) {
+     aside >  ul{
+          columns: 1;
+     }
+}
+
 aside{
      max-width: 97%;
      margin: auto;
